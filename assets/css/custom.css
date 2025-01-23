@@ -55,12 +55,28 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
   /* font-family: "didact_gothicregular"; */
   transition: all ease-in-out 0.5s;
-  background-color: #f0f1f3;
-}
-.container-wrapper {
-  padding: 2.5rem 9rem 2.5rem 9rem;
   background-color: #ffffff;
 }
+.container-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem 2.5rem 2rem;
+}
+@media only screen and (min-width: 3774px) {
+  .container-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 320px) and (max-width:1400px ){
+  .container-wrapper {
+    width: 100%;
+    padding: 3rem 2rem 3rem 2rem;
+    margin: 0 auto;
+  }
+}
+
+
 :root {
   --primary-color: #971f1f;
   --secondary-color: #64676e;
@@ -257,7 +273,7 @@ h1 {
 h2 {
   font-size: 4em;
   margin-bottom: 1em;
-  /* font-family: palatino linotype, serif !important; */
+  text-align: center;
 }
 
 h3 {
@@ -320,7 +336,7 @@ h3 {
 
 /*anchor element*/
 a {
-  text-decoration-style: wavy;
+  text-decoration: underline wavy;
   text-decoration-color: #484b65;
   text-underline-offset: 10px;
   color: #484b65;
@@ -592,12 +608,9 @@ a:hover {
 .work_process_section {
   margin-top: 2em;
 }
-@media (min-width: 320px) and (max-width: 1186px) {
+@media (min-width: 200px) and (max-width: 1186px) {
   .work_process_section {
     padding: 2em 2em 0em 2em;
-  }
-  .container-wrapper{
-    padding: 3rem 2rem 3rem 2rem;
   }
 }
 
