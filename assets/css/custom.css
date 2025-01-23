@@ -1117,7 +1117,7 @@ body {
   color: #604843;
 }
 
-#work_section h1,
+#work_section h2,
 .work_name h4,
 #about_section h1,
 .work_process_section h4,
@@ -1128,7 +1128,7 @@ body {
   font-family: palatino linotype, serif !important;
 }
 
-#work_section h1,
+#work_section h2,
 #work_section p {
   text-align: center;
 }
@@ -1139,9 +1139,9 @@ body {
   line-height: 2em;
 }
 
-#work_section h1,
-#about_section h1,
-#contact_section h1 {
+#work_section h2,
+#about_section h2,
+#contact_section h2 {
   font-size: 4em !important;
   margin-bottom: 0.5em !important;
 }
