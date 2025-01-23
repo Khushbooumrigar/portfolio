@@ -1382,9 +1382,10 @@ a:hover {
     margin: 0 5px !important;
   }
 
-  .author_name {
-    padding-top: 15px;
+ .author_name {
+    padding: 10em 1em 6em 1em;
   }
+
 
   .about_left_intro,
   .work_process_section {
