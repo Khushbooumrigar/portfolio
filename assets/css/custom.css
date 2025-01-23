@@ -47,7 +47,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  font-size: 14px;
+  font-size: 15px;
   overflow-x: hidden;
   position: relative;
   color: #d9d9d9;
@@ -1019,7 +1019,7 @@ body {
     padding: 50px 50px 45px 50px;
   }
 }
-/*********************************** Khushboo css start here***********************************/
+/*********************************** K css start here***********************************/
 body {
   background-color: #fbfbfb !important;
 }
@@ -1103,9 +1103,9 @@ body {
 
 .header-intro {
   color: #000000 !important;
-  font-size: 15px !important;
+  font-size: 22px !important;
   /*margin: 2.5em 2em;*/
-  line-height: 2em;
+  line-height: 1.6em;
 }
 
 /*resume text */
@@ -1378,4 +1378,4 @@ body {
 
 }
 
-/*********************************** Khushbu css ends here ***********************************/ /*# sourceMappingURL=custom.css.map */
+/*********************************** K css ends here ***********************************/ /*# sourceMappingURL=custom.css.map */
