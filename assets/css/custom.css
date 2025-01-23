@@ -328,7 +328,7 @@ body {
   height: 95%;
   padding: 10em;
   display: flex;
- /* text-align: center; */
+  /* text-align: center; */
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -697,14 +697,14 @@ body {
   -webkit-animation: bubble-box 7s linear infinite;
   animation: bubble-box 7s linear infinite;
 }
-#about_section .work_process_section .process_div h6 {
+#about_section .work_process_section .process_div h4 {
   font-size: 18px;
   margin-top: 40px;
   text-align: center;
   color: var(--heading-color);
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  #about_section .work_process_section .process_div h6 {
+  #about_section .work_process_section .process_div h4 {
     margin-bottom: 50px;
   }
 }
@@ -1023,16 +1023,27 @@ body {
 body {
   background-color: #fbfbfb !important;
 }
-
+/*heading element*/
+h2 {
+  font-size: 4em;
+  margin-bottom: 0.5em !important;
+  font-family: palatino linotype, serif !important;
+}
+h3 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em !important;
+  font-family: palatino linotype, serif !important;
+}
 /****social media added in header **/
 .social-media--header ul {
+  padding: 0;
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .social-media--header li {
-  margin: 2em;
+  margin-right: 2em;
 }
 
 .color-c9ada7 {
@@ -1119,13 +1130,11 @@ body {
 
 #work_section h2,
 .work_name h4,
-#about_section h1,
-.work_process_section h4,
-#contact_section h1,
+#about_section h2,
+.work_process_section h3,
+#contact_section h2,
 #contact_section .contact_div ul li a {
   color: #604843 !important;
-  /*#ac3b61 #976e66*/
-  font-family: palatino linotype, serif !important;
 }
 
 #work_section h2,
@@ -1139,13 +1148,6 @@ body {
   line-height: 2em;
 }
 
-#work_section h2,
-#about_section h2,
-#contact_section h2 {
-  font-size: 4em !important;
-  margin-bottom: 0.5em !important;
-}
-
 .work_name h4 {
   color: #272643 !important;
 }
@@ -1154,11 +1156,11 @@ body {
   color: #272643 !important;
 }
 
-.process_div h6 {
+.process_div h4 {
   color: #272643 !important;
 }
 
-.work_process_section h4 {
+.work_process_section h3 {
   text-align: center !important;
 }
 
@@ -1370,10 +1372,12 @@ body {
     flex-direction: column;
   }
 }
- .footer-social-media a {
-    text-decoration: none;
-    font-size: 16px;
-  }
-  .footer-social-media p { margin-bottom: 2em; }
+.footer-social-media a {
+  text-decoration: none;
+  font-size: 16px;
+}
+.footer-social-media p {
+  margin-bottom: 2em;
+}
 
 /*********************************** K css ends here ***********************************/ /*# sourceMappingURL=custom.css.map */
