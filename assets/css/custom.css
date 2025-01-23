@@ -328,14 +328,14 @@ body {
   height: 95%;
   padding: 10em;
   display: flex;
-  text-align: center;
+ /* text-align: center; */
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
 .author_name h1 {
   font-size: 90px;
-  text-align: center;
+  /*text-align: center;*/
   color: #971f1f;
   font-family: "hind_maduraibold";
   animation-duration: 1s;
@@ -1104,7 +1104,7 @@ body {
 .header-intro {
   color: #000000 !important;
   font-size: 15px !important;
-  margin: 2.5em 2em;
+  /*margin: 2.5em 2em;*/
   line-height: 2em;
 }
 
