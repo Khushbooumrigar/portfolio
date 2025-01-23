@@ -463,7 +463,18 @@ a:hover {
   flex-direction: column;
   justify-content: center;
 }
+.header-intro { text-align: center;}
 
+@media (min-width: 200px) and (max-width: 734px) {
+  .intro_section-author {
+    align-items: flex-start ;
+    justify-content: flex-start;
+  }
+  .header-intro {
+    text-align: left;
+  }
+  
+}
 /******************************  Work Section **/
 #project_section {
   position: relative;
@@ -528,23 +539,8 @@ a:hover {
   text-transform: uppercase;
   background-color: #ea4c89;
 }
-@media (min-width: 320px) and (max-width: 767px),
-  (min-width: 768px) and (max-width: 980px) {
-  #project_section {
-    padding: 50px 30px;
-  }
-}
-@media (min-width: 981px) and (max-width: 1200px) {
-  #project_section {
-    padding: 50px 50px;
-  }
-}
-@media (min-width: 320px) and (max-width: 767px) {
-  #project_section .bubble_animation_left {
-    width: 95%;
-    left: -50%;
-  }
-}
+
+
 @media (min-width: 320px) and (max-width: 767px) {
   #project_section .project_section {
     grid-template-columns: 12fr;
@@ -559,9 +555,6 @@ a:hover {
   #project_section .project_section .project_main_div {
     background-size: 60%;
     background-position: -70% 60%;
-  }
-  #project_section .project_section .project_main_div a {
-    /* padding: 1em; */
   }
 }
 @-webkit-keyframes left-right {
@@ -619,16 +612,6 @@ a:hover {
   }
 }
 
-@media (min-width: 768px) and (max-width: 980px) {
-  #about_section {
-    padding: 50px 30px;
-  }
-}
-@media (min-width: 981px) and (max-width: 1200px) {
-  #about_section {
-    padding: 50px 50px;
-  }
-}
 #about_section .about_div {
   display: grid;
   grid-gap: 2em;
@@ -853,7 +836,7 @@ a:hover {
     display: none;
   }
   .container-wrapper{
-    padding: 3rem 2rem 3rem 2rem;
+    padding: 3rem 4rem 3rem 4rem;
   }
 }
 
