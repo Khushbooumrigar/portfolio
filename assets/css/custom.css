@@ -1369,13 +1369,11 @@ body {
   .footer-social-media ul {
     flex-direction: column;
   }
-   
-  .footer-social-media a {
+}
+ .footer-social-media a {
     text-decoration: none;
     font-size: 16px;
   }
   .footer-social-media p { margin-bottom: 2em; }
-
-}
 
 /*********************************** K css ends here ***********************************/ /*# sourceMappingURL=custom.css.map */
