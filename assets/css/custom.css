@@ -233,7 +233,7 @@ font-size: 14px;
   background-color: transparent;
 }
 
-#work_section,
+#project_section,
 #about_section
 {
   margin-bottom: 9em;
@@ -287,12 +287,12 @@ h3 {
   }
 }
 
-.work_name h3 {
+.project_name h3 {
   color: #272643;
   font-size: 1.5em;
 }
-#work_section h2,
-.work_name h4,
+#project_section h2,
+.project_name h4,
 #about_section h2,
 .work_process_section h3,
 #contact_section h2,
@@ -300,7 +300,7 @@ h3 {
   color: #604843 !important;
 }
 
-.work_name h4 {
+.project_name h4 {
   color: #272643 !important;
 }
 
@@ -311,7 +311,7 @@ h3 {
 .work_process_section h3 {
   text-align: center !important;
 }
-.work_div h4 {
+.project_div h4 {
   padding: 24px 0 !important;
   font-size: 18px !important;
   font-weight: 200;
@@ -450,22 +450,22 @@ a:hover {
 }
 
 /******************************  Work Section **/
-#work_section {
+#project_section {
   position: relative;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
   background-color: var(--section-color);
 }
-#work_section .work_section .works_main_div a .work_div .work_img img {
+#project_section .project_section .project_main_div a .project_div .project_img img {
   filter: grayscale(10%) !important;
 }
 
-#work_section .work_section {
+#project_section .project_section {
   display: grid;
   grid-gap: 3em;
   grid-template-columns: 3fr 3fr;
 }
-#work_section .work_section .works_main_div {
+#project_section .project_section .project_main_div {
   overflow: hidden;
   position: relative;
   background-repeat: no-repeat;
@@ -473,30 +473,30 @@ a:hover {
   transition: all ease-in-out 0.5s;
   background-color: #1f2029;
 }
-#work_section .work_section .works_main_div a {
+#project_section .project_section .project_main_div a {
   display: block;
   text-decoration: none;
   /* padding: 1em; */
 }
-#work_section .work_section .works_main_div a .work_div .work_img {
+#project_section .project_section .project_main_div a .project_div .project_img {
   overflow: hidden;
 }
-#work_section .work_section .works_main_div a .work_div .work_img img {
+#project_section .project_section .project_main_div a .project_div .project_img img {
   opacity: 0.85;
   filter: grayscale(75%);
   transition: all ease-in-out 0.5s;
 }
-#work_section .work_section .works_main_div a .work_div .coming_soon {
+#project_section .project_section .project_main_div a .project_div .coming_soon {
   display: grid;
   min-height: 375px;
   align-items: center;
 }
-#work_section .work_section .works_main_div a .work_div:hover .work_img img {
+#project_section .project_section .project_main_div a .project_div:hover .project_img img {
   opacity: 1;
   filter: grayscale(0%);
   transform: scale(1.07);
 }
-#work_section .work_section .works_main_div .work_button {
+#project_section .project_section .project_main_div .work_button {
   left: 0;
   right: 0;
   bottom: 0;
@@ -515,37 +515,37 @@ a:hover {
 }
 @media (min-width: 320px) and (max-width: 767px),
   (min-width: 768px) and (max-width: 980px) {
-  #work_section {
+  #project_section {
     padding: 50px 30px;
   }
 }
 @media (min-width: 981px) and (max-width: 1200px) {
-  #work_section {
+  #project_section {
     padding: 50px 50px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  #work_section .bubble_animation_left {
+  #project_section .bubble_animation_left {
     width: 95%;
     left: -50%;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  #work_section .work_section {
+  #project_section .project_section {
     grid-template-columns: 12fr;
   }
 }
 @media (min-width: 768px) and (max-width: 980px) {
-  #work_section .work_section {
+  #project_section .project_section {
     grid-template-columns: 6fr 6fr;
   }
 }
 @media only screen and (min-width: 1920px) {
-  #work_section .work_section .works_main_div {
+  #project_section .project_section .project_main_div {
     background-size: 60%;
     background-position: -70% 60%;
   }
-  #work_section .work_section .works_main_div a {
+  #project_section .project_section .project_main_div a {
     /* padding: 1em; */
   }
 }
@@ -746,30 +746,30 @@ a:hover {
   background-size: 400% 400%;
 }
 
-#work_section,
+#project_section,
 #contact_section {
   background-color: #ffffff !important;
 }
 
 /* box bg color */
-#work_section .work_section .works_main_div {
+#project_section .project_section .project_main_div {
   background-color: #ffffff !important;
 }
 
 /**view on Behance box button */
-#work_section .work_section .works_main_div .primary_btn {
+#project_section .project_section .project_main_div .primary_btn {
   color: #ffffff !important;
   background-color: #484b65 !important;
   border: 1px solid #484b65 !important;
 }
 
-#work_section .work_section .works_main_div .primary_btn:hover {
+#project_section .project_section .project_main_div .primary_btn:hover {
   color: #484b65 !important;
   background-color: transparent !important;
   transition: all ease-in-out 0.5s;
 }
 
-.work_type {
+.project_type {
   border-radius: 7px;
   padding: 1px 12px;
   background: whitesmoke;
@@ -782,11 +782,11 @@ a:hover {
   line-height: 1.6em;
 }
 
-.work_name {
+.project_name {
   margin-bottom: 2.5em;
 }
 
-#work_section p {
+#project_section p {
   color: #272643;
   line-height: 2em;
 }
