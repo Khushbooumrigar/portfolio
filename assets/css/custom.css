@@ -425,7 +425,6 @@ body {
   cursor: pointer;
   font-weight: 700;
   padding: 20px 30px;
-  border-radius: 50px;
   letter-spacing: 1px;
   font-family: "didact_gothicregular";
   color: var(--text-color);
@@ -441,7 +440,7 @@ body {
 #work_section .work_section {
   display: grid;
   grid-gap: 3em;
-  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-columns: 3fr 3fr;
 }
 @media (min-width: 320px) and (max-width: 767px) {
   #work_section .work_section {
@@ -464,7 +463,7 @@ body {
 #work_section .work_section .works_main_div a {
   display: block;
   text-decoration: none;
-  padding: 30px 30px 45px 30px;
+  /* padding: 1em; */
 }
 #work_section .work_section .works_main_div a .work_div .work_img {
   overflow: hidden;
@@ -589,11 +588,14 @@ body {
   /* background-color: var(--section-color); */
 }
 .about_left_intro,
-.about_sec_img,
+.about_sec_img {
+  padding: 5em;
+  background-color: #ffffff;
+}
+
 .work_process_section {
   padding: 5em;
   background-color: #ffffff;
-  border-radius: 1em;
 }
 
 .img-effect {
@@ -1016,12 +1018,13 @@ body {
     background-position: -70% 60%;
   }
   #work_section .work_section .works_main_div a {
-    padding: 50px 50px 45px 50px;
+    /* padding: 1em; */
   }
 }
-/*********************************** K css start here***********************************/
+
+/***********************************  Khush css start here***********************************/
 body {
-  background-color: #fbfbfb !important;
+  background-color: #f0f1f3 !important;
 }
 /*heading element*/
 h2 {
@@ -1033,6 +1036,26 @@ h3 {
   font-size: 2.5em;
   margin-bottom: 0.5em !important;
   font-family: palatino linotype, serif !important;
+}
+.work_name h3 {
+  color: #272643;
+  font-size: 1.5em;
+}
+
+/*anchor element*/
+a {
+  text-decoration-style: wavy;
+  text-decoration-color: #484b65;
+  text-underline-offset: 10px;
+  color: #484b65;
+  /* REFERNCE: https://stackoverflow.com/questions/39432258/how-to-create-a-wavy-underline-on-mutilline-text-with-css*/
+}
+a:hover {
+  text-decoration-style: wavy;
+  text-decoration-color: #484b65;
+  text-underline-offset: 10px;
+  color: #484b65;
+  font-weight: bold;
 }
 /****social media added in header **/
 .social-media--header ul {
@@ -1059,19 +1082,23 @@ h3 {
 /** *************** backgrounds of main sections **/
 #home_section {
   margin: 2em !important;
-  background-color: #ffffff !important;
+  background: linear-gradient(
+    -45deg,
+    #cb9d93,
+    #ffffff,
+    #cb9d93,
+    #ffffff,
+    #ffffff
+  );
+  background-size: 400% 400%;
+  /* background-color: #ffffff !important; */
   /* background-image: url(/assets/images/flower_bg.svg); */
 }
 
 #work_section,
 #contact_section {
-  background-color: #f2e9e4 !important;
-  /*eee2cd*/
-}
-
-/* #about_section {
   background-color: #ffffff !important;
-} */
+}
 
 /* box bg color */
 #work_section .work_section .works_main_div {
@@ -1104,6 +1131,11 @@ h3 {
   /*#4a4e69*/
 }
 
+.work_type {
+  border-radius: 7px;
+  padding: 1px 12px;
+  background: whitesmoke;
+}
 /** ***************titles --- TEXTS  */
 .author_name h1 {
   color: #cb9d93 !important;
@@ -1127,6 +1159,9 @@ h3 {
 .header-intro a:hover {
   color: #604843;
 }
+.work_name {
+  margin-bottom: 2em;
+}
 
 #work_section h2,
 .work_name h4,
@@ -1137,14 +1172,12 @@ h3 {
   color: #604843 !important;
 }
 
-#work_section h2,
-#work_section p {
+#work_section h2 {
   text-align: center;
 }
 
 #work_section p {
   color: #272643;
-  margin-bottom: 3em;
   line-height: 2em;
 }
 
@@ -1210,13 +1243,10 @@ h3 {
 /* #work_section {
     padding: 4em !important;
   } */
-.works_main_div {
-  border-radius: 0.2em;
-}
-
+/* .works_main_div,
 .work_img {
-  border-radius: 0.2em;
-}
+  border-radius: 2em;
+} */
 
 .work_div h4 {
   padding: 24px 0 !important;
@@ -1235,13 +1265,6 @@ h3 {
 }
 
 /***** bubble**/
-#about_section
-  .work_process_section
-  .process_div
-  .process_icon
-  .bubble_bg_animation {
-  background-color: #4a4e69 !important;
-}
 
 /**rotate square https://codepen.io/flaviocopes/pen/zyyJpL **/
 .rotate {
